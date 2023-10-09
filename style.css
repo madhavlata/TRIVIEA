@@ -1,22 +1,32 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 4px 0px;
 }
 
 @media only screen and (max-width:850px) {
     
 
 .match-container{
-        height: 15%;
-        margin: 5px 20px;
-        background-color: aquamarine;
+        height: 20%;
+        margin: 5px 10px;
+        background-color: #fff;
         border-radius: 10px;
-        border: 0.5px solid blueviolet;
+        border: 0.5px solid #fff;
+        padding-top: 0px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+
+.match-name{
+    padding: 0px;
 }
 
 .match-name>p{
     text-align: center;
-    color: rgb(231, 70, 206);
+    color: rgb(0, 0, 0);
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(68, 210, 120);
+    font-size: 4.5vw;
+    padding: 3px;
 
 }
 
@@ -33,7 +43,7 @@
     align-content: end;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .image-container{
@@ -49,7 +59,7 @@
 }
 
 .team1-name-container{
-    color: rgb(231, 70, 206);
+    color: rgb(0, 0, 0);
     height: auto;
     width: auto;
     padding-top: 15%;
@@ -68,7 +78,7 @@
     align-content: end;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .team2-image{
@@ -77,7 +87,7 @@
 }
 
 .team2-name-container{
-    color: rgb(231, 70, 206);
+    color: rgb(0, 0, 0);
     height: auto;
     width: auto;
     padding-top: 15%;
