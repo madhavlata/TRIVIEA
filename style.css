@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:850px) {
+    
+
+.match-container{
+        height: 15%;
+        margin: 5px 20px;
+        background-color: aquamarine;
+        border-radius: 5%;
+        border: 0.5px solid blueviolet;
+}
+
+.match-name>p{
+    text-align: center;
+    color: rgb(231, 70, 206);
+
+}
+
+.team1-container{
+    height: 50%;
+    width: 40%;
+    /* background-color: rgb(249, 141, 141); */
+    align-content: end;
+}
+
+.image-container{
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+}
+
+.team1-image{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+}
