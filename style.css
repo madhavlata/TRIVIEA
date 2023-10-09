@@ -10,7 +10,7 @@
         height: 15%;
         margin: 5px 20px;
         background-color: aquamarine;
-        border-radius: 5%;
+        border-radius: 10px;
         border: 0.5px solid blueviolet;
 }
 
@@ -20,22 +20,73 @@
 
 }
 
+.teams-countdown-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .team1-container{
     height: 50%;
-    width: 40%;
+    width: 35%;
     /* background-color: rgb(249, 141, 141); */
     align-content: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .image-container{
     height: inherit;
     width: inherit;
     border-radius: 50%;
+    align-content: center;
 }
 
 .team1-image{
     height: 100%;
     width: 100%;
+}
+
+.team1-name-container{
+    color: rgb(231, 70, 206);
+    height: auto;
+    width: auto;
+    padding-top: 15%;
+    
+}
+
+.countdown-container{
+    height: 50%;
+    width: 20%;
+}
+
+.team2-container{
+    height: 50%;
+    width: 35%;
+    /* background-color: rgb(249, 141, 141); */
+    align-content: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.team2-image{
+    height: 80%;
+    width: 80%;
+}
+
+.team2-name-container{
+    color: rgb(231, 70, 206);
+    height: auto;
+    width: auto;
+    padding-top: 15%;
+    
+}
+
+.team2-image-container{
+    padding-top: 3%;
+    margin-left: 3%;
 }
 
 
