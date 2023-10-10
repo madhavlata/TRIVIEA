@@ -2,6 +2,9 @@
     margin: 0;
     padding: 4px 0px;
 }
+body{
+    background-color: rgb(216, 213, 213);
+}
 
 @media only screen and (max-width:850px) {
     
@@ -9,22 +12,42 @@
 .match-container{
         height: 20%;
         margin: 5px 10px;
-        background-color: #fff;
         border-radius: 10px;
         border: 0.5px solid #fff;
+        background-color: #fff;
         padding-top: 0px;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 4px;
+        cursor: pointer;
 }
 
 .match-name{
     padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.match-name>p{
+.notification-bell-container{
+    
+}
+
+.notification-bell{
+    border-radius: 8px;
+    padding: 0vw 2vw;
+    border: none;
+    
+}
+
+.hr{
+    width: inherit;
+    padding: 0vw 25vw;
+}
+
+.p{
     text-align: center;
     color: rgb(0, 0, 0);
     border-radius: 10px 10px 0px 0px;
-    background-color: rgb(68, 210, 120);
+    background-color: rgb(255, 255, 255);
     font-size: 4.5vw;
     padding: 3px;
 
@@ -69,8 +92,16 @@
 .countdown-container{
     height: 50%;
     width: 20%;
+    padding: 4vw 5vw 2vw 5vw;
 }
 
+#countdown{
+    font-size: 3vw;
+}
+
+.match-date{
+    font-size: 2.5vw;
+}
 .team2-container{
     height: 50%;
     width: 35%;
